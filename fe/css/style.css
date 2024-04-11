@@ -65,25 +65,35 @@ body {
     margin-right: 3px;
 }
 
-.header-logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
-
-.logo {
-    min-width: 100px;
-}
-
-.logo a img {
+.navbar-brand img {
     margin-left: 10px;
     max-width: 252px;
     max-height: 100px;
 }
 
-.header-menu {
-    padding-left: 0px;
-    padding-right: 0;
+/* .menu-nav li {
+    position: relative;
+    margin: 0 12px;
+} */
+
+.menu-nav li a {
+    padding: 25px 0;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    color: #000 !important;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.menu-nav li a:hover {
+    color: #a70000 !important;
+}
+
+.active {
+    color: #a70000 !important;
 }
 
 .navbar-nav {
@@ -91,41 +101,15 @@ body {
     margin-right: 13px;
 }
 
-.menu-list li {
-    margin: 0 12px;
-    position: relative;
-}
 
-.menu-list li a {
-    padding: 25px 0;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 0.75px;
-    color: #000;
-    width: 100%;
-    position: relative;
-    display: block;
-}
-
-.menu-list li a:hover {
-    color: #a70000;
-}
-
-.menu-list {
+.menu-nav {
     height: 100%;
     margin: 0;
 }
 
-.header-action {
-    padding-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-self: center;
-}
 
 .menu-icon {
-    gap: 13px;
+    gap: 7px;
 }
 
 .menu-icon li a {
@@ -137,7 +121,7 @@ body {
 }
 
 .menu-icon li a:hover {
-    color: #a70000;
+    color: #a70000 !important;
 }
 
 /* .banner-header {
@@ -247,14 +231,74 @@ body {
     color: #fff;
 }
 
+/* Product */
+
 .product {
     margin-top: 5%;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.product-img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
 }
 
 .box {
     margin-bottom: 10%;
+    width: 100%;
+    position: relative;
+    transition: .4s;
+    padding: 10px;
 }
 
+.box:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.product-content {
+    width: 100%;
+}
+
+.product-data {
+    padding-top: 5px;
+}
+
+.product-band {
+    font-size: 15px;
+    color: #7a7878;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.product-title {
+    width: 100%;
+    font-size: 22px;
+    color: #000;
+}
+
+.product-price {
+    font-size: 18px;
+    color: red;
+}
+
+.product-btn {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 5px 15px 7px 15px;
+    background-color: #a70000;
+    color: #fff;
+    transition: .4s;
+    text-align: center;
+    font-weight: 500;
+}
+
+.product-btn:hover {
+    color: #fff;
+    background: #c40404;
+}
 
 
 .slide-container {
@@ -418,17 +462,47 @@ body {
     width: 48% !important;
 }
 
-.banner-image {
-    width: 300px;
-    height: 300px;
+.banner-box:hover {
+    background: #a10202;
 }
 
+.banner-image {
+    width: 350px;
+    height: 350px;
+}
+
+
+
 .banner-title {
-    font-size: 24px;
+    font-size: 40px;
     line-height: 1.2;
     margin-bottom: 10px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-subtitle {
+    font-size: 30px;
+    color: #2b2727;
+}
+
+.banner-view {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+    background: #2b2727;
+    transition: .4s;
+}
+
+.banner-view:hover {
+    color: #fff;
+    background: #000000;
 }
 
 
@@ -872,7 +946,7 @@ textarea.form-control {
 
 .payment-icon li img {
     width: 50px;
-    height: 100%;
+    height: 40px;
 }
 
 .footer-copyright {
@@ -889,8 +963,8 @@ textarea.form-control {
 
 /* Blog */
 .blog-container {
-    padding-left: 75px !important;
-    padding-right: 75px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 
 .login-container {
@@ -898,3 +972,12 @@ textarea.form-control {
     margin-top: 50px;
 }
 
+.blog-img {
+    width: 100%;
+    height: 350px !important;
+    object-fit: cover;
+}
+
+.link-primary {
+    color: #a70000 !important;
+}
