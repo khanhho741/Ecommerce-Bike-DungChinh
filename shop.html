@@ -6,6 +6,7 @@
     <title>Xe đạp Dung Chinh</title>
     <link rel="shortcut icon" href="./fe/images/DC.png" type="image/x-icon">
     <link rel="stylesheet" href="./fe/css/style.css">
+    <link rel="stylesheet" href="./fe/css/shop.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -53,10 +54,10 @@
                     <a class="nav-link mx-2 active" aria-current="page" href="home.html">Trang Chủ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mx-2" href="shop.html">Xe đạp Swat</a>
+                    <a class="nav-link mx-2" href="#">Xe đạp Swat</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mx-2" href="shop.html">Xe đạp DC</a>
+                    <a class="nav-link mx-2" href="#">Xe đạp DC</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link mx-2" href="#">Hướng Dẫn</a>
@@ -76,7 +77,7 @@
                     <a class="nav-link text-dark h5" href="#" ><i class='bx bx-search-alt-2' ></i></a>
                   </li>
                   <li class="nav-item mx-2">
-                    <a class="nav-link text-dark h5" href="#"><i class='bx bx-user' ></i></a>
+                    <a class="nav-link text-dark h5" href="signin.html"><i class='bx bx-user' ></i></a>
                   </li>
                   <li class="nav-item mx-2">
                     <a class="nav-link text-dark h5" href="#"><i class='bx bxs-shopping-bag'></i></a>
@@ -92,78 +93,199 @@
     </Header>
     <!-- End Header -->
     
-    <section class="login-container py-3 py-md-5 py-xl-8">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="mb-5">
-                <h2 class="display-5 fw-bold text-center">Quên Mật Khẩu</h2>
-                <p class="text-center m-0">Cung cấp địa chỉ email được liên kết với tài khoản của bạn để khôi phục mật khẩu.</p>
-              </div>
+    <section>
+        <div class="breadcrumb-contact">
+            <div class="container-fluid">
+                <div class="breadcrumb-list">
+                    <ul class="breadcrumb breadcrumb-arrows">
+                        <li>
+                            <a href="#"><span>Trang chủ</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="#"><span>Sản phẩm</span></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-12 col-lg-10 col-xl-8">
-              <div class="row gy-5 justify-content-center">
-                <div class="col-12 col-lg-5">
-                  <form action="#!">
-                    <div class="row gy-3 overflow-hidden">
-                      <div class="col-12">
-                        <div class="form-floating mb-3">
-                          <input type="email" class="form-control border-0 border-bottom rounded-0" name="email" id="email" placeholder="name@example.com" required>
-                          <label for="email" class="form-label">Email</label>
-                        </div>
-                      </div>
-                      <div class="col-12">
-                        <div class="d-grid">
-                          <button class="btn btn-primary btn-lg" type="submit">Đặt lại mật khẩu</button>
-                        </div>
-                      </div>
-                      <div class="col-12">
-                        <div class="row justify-content-between">
-                          <div class="col-6">
-                            <a href="signin.html" class="link-secondary text-decoration-none">Đăng nhập</a>
-                          </div>
-                          <div class="col-6">
-                            <div class="text-end">
-                              <a href="register.html" class="link-secondary text-decoration-none">Đăng ký</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center gap-3 flex-lg-column">
-                  <div class="bg-dark h-100 d-none d-lg-block" style="width: 1px; --bs-bg-opacity: .1;"></div>
-                  <div class="bg-dark w-100 d-lg-none" style="height: 1px; --bs-bg-opacity: .1;"></div>
-                  <div>hoặc</div>
-                  <div class="bg-dark h-100 d-none d-lg-block" style="width: 1px; --bs-bg-opacity: .1;"></div>
-                  <div class="bg-dark w-100 d-lg-none" style="height: 1px; --bs-bg-opacity: .1;"></div>
-                </div>
-                <div class="col-12 col-lg-5 d-flex align-items-center">
-                  <div class="d-flex gap-3 flex-column w-100 ">
-                    <a href="#" class="text-center"><img src="./fe/images/Satelite Bike.png" alt="" width="200px" height="100%"></a>
-                    <a href="#!" class="btn btn-lg btn-danger">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
-                        <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
-                      </svg>
-                      <span class="ms-2 fs-6">Đăng nhập với Google</span>
-                    </a>
-                    <a href="#!" class="btn btn-lg btn-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                      </svg>
-                      <span class="ms-2 fs-6">Đăng nhập với Facebook</span>
-                    </a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+        <div class="grid-container inside_product_cat_hero">
+            <h2 class="inside_product_cat_hero_des_cat"><p style="text-align: center;"><img class="alignnone wp-image-4506 size-full" src="https://vinbike.com/wp-content/uploads/2023/09/Banner-Web.jpg" alt="" width="100%" height="100%"></p>
+        </h2>
+        </div>
+        <div class="d-flex filter-log">
+            <p class="filter-log-title"><span>Sắp xếp theo: </span></p>
+            <form class="woocommerce-ordering" method="get">
+                <select name="orderby" class="orderby" aria-label="Shop order">
+                                <option value="popularity">Thứ tự theo mức độ phổ biến</option>
+                                <option value="date">Mới nhất</option>
+                                <option value="price">Thứ tự theo giá: Thấp đến cao</option>
+                                <option value="price-desc" selected="selected">Thứ tự theo giá: Cao đến thấp</option>
+                        </select>
+                <input type="hidden" name="paged" value="1">
+                </form>
+        </div>
+        <div class="shop-content container-fluid">
+            <div class="box-shop mt-5">
+                <div class="row">
+                    <div class="col-3 filter-col" id="filter-col">
+                        <div class="box filter-toggle-box">
+                            <button class="">Close</button>
+                        </div>
+                        
+                        <div class="box-shop">
+                            <div class="form form-search">
+                                <i class="bx bx-search"></i>
+                                <input type="text" class="form-control form-input" placeholder="Tìm kiếm...">
+                            </div>
+                            <span class="filter-header">
+                                Sản phẩm
+                            </span>
+                            <ul class="filter-list">
+                                <li><a href="">Xe đạp thể thao</a></li>
+                                <li><a href="">Xe đạp địa hình</a></li>
+                                <li><a href="">Xe đạp thời trang</a></li>
+                                <li><a href="">Xe đạp trẻ em</a></li>
+                            </ul>
+                        </div>
+                        <div class="box-shop">
+                            <span class="filter-header">
+                                Giá
+                            </span>
+                            <div class="price-range">
+                                <input type="text">
+                                <span>-</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="box-shop">
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="status1">
+                                        <label for="status1">
+                                            Giảm giá
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="status2">
+                                        <label for="status2">
+                                            Mới
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="status3">
+                                        <label for="status3">
+                                            Đã sử dụng
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box-shop">
+                            <span class="filter-header">
+                                Hãng
+                            </span>
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Cannondale</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Merida</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Scott</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Santa Cruz</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Kona</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box-shop">
+                            <span class="filter-header">
+                                Màu
+                            </span>
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Trắng</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Đen</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Đỏ</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Xanh</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox" id="remember1">
+                                        <label for="remember1">Vàng</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="box filter-toggle-box">
+                            <button class="">Lọc</button>
+                        </div>
+                        <div class="box-shop">
+                            <div class="row d-flex align-items-center ml-5" id="products">
+                                
+                            </div>
+                        </div>
+                        <div class="box-shop">
+                            <ul class="pagination">
+                                <li><a href="#"><i class="bx bxs-chevron-left"></i></a></li>
+                                <li><a href="#" class="active">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#"><i class="bx bxs-chevron-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     
     
     <footer>
@@ -245,7 +367,7 @@
                                         <ul class="payment-icon">
                                             <li> <img src="./fe/images/momo.jpg" alt=""></li>
                                             <li> <img src="./fe/images/banking.png" alt=""></li>
-                                            <li> <img src="./fe/images/vnpay.webp" alt=""></li>
+                                            <li> <img src="./fe/images/payment_3_img.webp" alt=""></li>
                                             <li> <img src="./fe/images/cod.jpg" alt=""></li>
                                         </ul>
                                     </div>

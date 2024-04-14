@@ -241,8 +241,9 @@ body {
 
 .product-img {
     width: 100%;
-    height: 100%;
+    height: 200px;
     margin-bottom: 15px;
+    object-fit: contain;
 }
 
 .box {
@@ -259,6 +260,7 @@ body {
 
 .product-content {
     width: 100%;
+    height: 100%;
 }
 
 .product-data {
@@ -283,6 +285,10 @@ body {
     color: red;
 }
 
+.productbtn-box {
+    gap: 10px;
+}
+
 .product-btn {
     display: block;
     width: 100%;
@@ -293,6 +299,24 @@ body {
     transition: .4s;
     text-align: center;
     font-weight: 500;
+}
+
+.product-buy {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 5px 15px 7px 15px;
+    background-color: #1100a7;
+    color: #fff;
+    transition: .4s;
+    text-align: center;
+    font-weight: 500;
+}
+
+.product-buy:hover {
+    color: #fff;
+    background-color: #1602c9;
+
 }
 
 .product-btn:hover {
@@ -467,8 +491,9 @@ body {
 }
 
 .banner-image {
-    width: 350px;
+    width: 50%;
     height: 350px;
+    object-fit: contain;
 }
 
 
