@@ -84,7 +84,7 @@ let product_list = document.querySelector('#products')
 renderProducts = (products) => {
   products.forEach(e => {
       let prod = `
-      <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xl-4 mt-4">
                             <div class="box">
                                 <div class="product-content">
                                     <a href=""><img src="${e.image1}" alt="" class="product-img"></a>
