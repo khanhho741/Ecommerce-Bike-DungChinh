@@ -117,9 +117,25 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
 }
 
 .sum-total {
-    gap: 10px;
+    gap: 15px;
 }
 
+.sum-total h4 {
+    font-size: 17px;
+}
+
+.addr-user {
+    flex-direction: column;
+}
+.addr-user h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.addr-user p {
+    font-size: 16px;
+}
 .tab-content {
     padding-left: 70px;
 }
@@ -176,4 +192,9 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
     font-size: 14px !important;
     padding: 10px !important;
     height: 10px !important;
+}
+
+.order-tab-btn {
+    padding: 10px 20px 10px 20px;
+    border: none;
 }
